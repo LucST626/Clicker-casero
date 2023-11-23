@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+  }
+  
+  body{
+    height: 100vh;
+    background: url(https://media.tenor.com/Ier_cMrhpBkAAAAd/eat-cereal.gif);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #puntos{
+    font-size: 10vw;
+    cursor: default;
+    user-select: none;
+    transition: 500ms;
+  }
+  
+  #puntos:hover{
+    font-size: 18vw;
+    color: red;
+    text-shadow: 0px 0px 20px black;
+    transition: 1s;
+  }
+  
+  
+  
+  #shop{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background: rgba(0,0,0, 0.7);
+    padding: 1em;
+  }
+  button{
+    padding: 0.3em;
+    margin-button: 0.5em;
+  }
